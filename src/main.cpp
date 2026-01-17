@@ -13,7 +13,7 @@
 #define SEC_2_OFF_LED PB6 
 
 // --- Constants & Settings ---
-const float alpha = 0.15;           // Filter smoothing (0.0 to 1.0)
+const float alpha = 0.1;           // Filter smoothing (0.0 to 1.0)
 unsigned long sendInterval = 1000;  // Default: 1 message per second (1Hz)
 
 // --- Global Variables ---
